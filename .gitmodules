@@ -1,0 +1,3 @@
+[submodule "icanmakeit.de/themes/hugo-tranquilpeak-theme"]
+	path = icanmakeit.de/themes/hugo-tranquilpeak-theme
+	url = git@github.com:kakawait/hugo-tranquilpeak-theme.git

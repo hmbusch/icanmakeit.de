@@ -27,7 +27,7 @@ After another year of neglect, I've decided to pull the plug on my old blog and 
 
 I set up this instead, a blog more easy to maintain, a blog easier on the eyes. I ditched Wordpress for [Hugo](https://gohugo.io/), so no more constant updates and fears of being hacked.
 
-Does it mean I will post more often? Perhaps not. Maybe. We'll see.
+Does it mean I will post more often? ~~Perhaps not. Maybe. We'll see.~~ No.
 
 Thank you for stopping by!
 

@@ -1,7 +1,7 @@
 # Basic settings
 baseurl = "http://www.icanmakeit.de"
 title = "I can MAKE IT"
-theme = "hugo-tranquilpeak-theme-0.4.3-BETA"
+theme = "hugo-tranquilpeak-theme"
 paginate = 7
 canonifyurls = true
 
@@ -9,7 +9,7 @@ canonifyurls = true
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 
-googleAnalytics = "UA-1327440-1"
+googleAnalytics = ""
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -73,32 +73,26 @@ googleAnalytics = "UA-1327440-1"
   weight = 0
   identifier = "github"
   name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
   url = "https://github.com/hmbusch"
 [[menu.links]]  
   weight = 0
   identifier = "linkedin"
   name = "LinkedIn"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-linkedin\" aria-hidden=\"true\"></i>"
   url = "https://www.linkedin.com/in/hendrikbusch/"  
 [[menu.links]]  
   weight = 0
   identifier = "xing"
   name = "XING"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-xing\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-xing\" aria-hidden=\"true\"></i>"
   url = "https://www.xing.com/profile/Hendrik_Busch2"  
 [[menu.links]]  
   weight = 0
   identifier = "twitter"
   name = "Twitter"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-twitter\" aria-hidden=\"true\"></i>"
   url = "https://twitter.com/Loneguard"
-#[[menu.links]]
-#  weight = 1
-#  identifier = "stackoverflow"
-#  name = "Stack Overflow"
-#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-#  url = "https://stackoverflow.com/users/636472/kakawait"
 
 [[menu.misc]]
   weight = 0
@@ -129,6 +123,8 @@ googleAnalytics = "UA-1327440-1"
   hierarchicalCategories = false
 
   description = "Hightech & Lowlife"
+
+  mainSections = ['post']
 
   # Customization
   # Define the behavior of the sidebar
